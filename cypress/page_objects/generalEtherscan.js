@@ -36,6 +36,10 @@ class General {
         return cy.get ('div[class="alert alert-danger"]')
     }
 
+    get headerTitle2 () {
+        return cy.get ('h1[class="h3 text-primary font-weight-normal mb-2"]')
+    }
+
 }
 
 export const general = new General ()
